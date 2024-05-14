@@ -11,7 +11,6 @@ const Index = () => {
   const [forgotPasswordEmployeeNumber, setForgotPasswordEmployeeNumber] = useState("");
 
   const handleLogin = () => {
-    // Mock login logic
     if (user.employeeNumber === "123" && user.password === "password") {
       setIsLoggedIn(true);
     } else if (user.employeeNumber === "new") {
